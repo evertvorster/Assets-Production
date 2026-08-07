@@ -1020,6 +1020,11 @@
                 {"key": "c", "modifier": "none"}
             ]
         },
+        "ConfigKey": {
+            "keyboard": [
+                {"key": "c", "modifier": "alt"}
+            ]
+        },
         "Cockpit::Behind": {
             "keyboard": [
                 {"key": "5", "modifier": "none"}
