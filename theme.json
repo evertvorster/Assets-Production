@@ -237,11 +237,6 @@
         "base_faction_color_darkness": 0.75,
         "base_saturation": 1.0,
         "use_faction_gui_background_color": true,
-        "set_raster_text_color": true,
-        "font": "helvetica12",
-        "font_antialias": false,
-        "font_point": 16.0,
-        "font_width_hack": 0.925,
-        "gui_font_scale": 0.75
+        "set_raster_text_color": true
     }
 }

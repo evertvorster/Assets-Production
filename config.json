@@ -21,7 +21,12 @@
         "use_textures": true,
         "use_vs_sprites": true,
         "use_videos": true,
-        "screen": 0
+        "screen": 0,
+        "font": "helvetica12",
+        "font_antialias": false,
+        "font_point": 16.0,
+        "font_width_hack": 0.925,
+        "gui_font_scale": 0.75
     },
     "audio": {
         "volume": 100.0,
