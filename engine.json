@@ -437,9 +437,6 @@
         "yaw": 0.0
     },
     "graphics": {
-        "afterburner_color_red": 1.0,
-        "afterburner_color_green": 0.0,
-        "afterburner_color_blue": 0.0,
         "always_make_smooth_cam": false,
         "anim_far_percent": 0.8,
         "armor_flash_animation": "armorflash.ani",
@@ -458,10 +455,8 @@
         "background": true,
         "background_edge_fixup": 2.0,
         "background_star_streak_velocity_scale": 0.01,
-        "base_faction_color_darkness": 0.75,
         "beam_fadeout_length": 0.8,
         "beam_fadeout_hit_length": 0.95,
-        "base_saturation": 1.0,
         "bitmap_alphamap": true,
         "blend_cockpit": false,
         "blend_guns": true,
@@ -521,9 +516,6 @@
         "draw_vdus_from_target_cam": false,
         "draw_weapons": false,
         "eject_rotation_speed": 0.0,
-        "engine_color_red": 1.0,
-        "engine_color_green": 1.0,
-        "engine_color_blue": 1.0,
         "engine_length_scale": 1.25,
         "engine_radii_scale": 0.4,
         "explore_for_map": true,
@@ -542,10 +534,6 @@
         "fog_detail": 2,
         "fog_fade_in_percent": 0.5,
         "fog_time": 0.01,
-        "font": "helvetica12",
-        "font_antialias": false,
-        "font_point": 16.0,
-        "font_width_hack": 0.925,
         "force_glowmap_restore_write_to_depthmap": true,
         "force_lighting": true,
         "force_one_one_shield_blend": true,
@@ -556,7 +544,6 @@
         "glow_ambient_star_light": false,
         "glow_diffuse_star_light": false,
         "glut_stencil": true,
-        "gui_font_scale": 0.75,
         "halo_far_draw": false,
         "halo_offset": 0.5,
         "halo_sparkle_rate": 20.0,
@@ -627,7 +614,6 @@
         "s3tc": true,
         "sector_map_ortho_view": false,
         "separate_specular_color": false,
-        "set_raster_text_color": true,
         "shader_name": "default",
         "shake_limit": 25.0,
         "shake_magnitude": 0.3,
@@ -688,7 +674,6 @@
         "update_nav_after_jump": false,
         "use_animations": true,
         "use_detail_texture": true,
-        "use_faction_gui_background_color": true,
         "use_logos": true,
         "use_planet_atmosphere": true,
         "use_planet_fog": true,
@@ -1248,233 +1233,5 @@
     "weapons": {
         "can_fire_in_cloak": false,
         "can_fire_in_spec": false
-    },
-    "colors": {
-        "nav": {
-            "current_system": [
-                1.0,
-                0.3,
-                0.3,
-                1.0
-            ],
-            "destination_system": [
-                1.0,
-                0.77,
-                0.3,
-                1.0
-            ],
-            "slelection_system": [
-                0.3,
-                1.0,
-                0.3,
-                1.0
-            ],
-            "path_system": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-            ]
-        },
-        "absolute": {
-            "red": [
-                1.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "green": [
-                0.0,
-                1.0,
-                0.0,
-                1.0
-            ],
-            "blue": [
-                0.0,
-                0.0,
-                1.0,
-                1.0
-            ],
-            "yellow": [
-                1.0,
-                1.0,
-                0.0,
-                1.0
-            ],
-            "black": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "white": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-            ],
-            "grey": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-            ],
-            "light-grey": [
-                0.8,
-                0.8,
-                0.8,
-                1.0
-            ],
-            "violet": [
-                1.0,
-                0.0,
-                1.0,
-                1.0
-            ],
-            "light-blue": [
-                0.68,
-                0.9,
-                1.0,
-                1.0
-            ],
-            "pink": [
-                1.0,
-                0.47,
-                0.64,
-                1.0
-            ],
-            "dark-red": [
-                0.1,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "dark-blue": [
-                0.0,
-                0.0,
-                0.2,
-                1.0
-            ]
-        },
-        "unit": {
-            "ship_ambient": [
-                0.3,
-                0.3,
-                0.3,
-                1.0
-            ],
-            "engine": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-            ]
-        },
-        "terrain": {
-            "terrain_ambient": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ]
-        },
-        "default": {
-            "enemy": [
-                1.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "friend": [
-                0.0,
-                1.0,
-                0.0,
-                1.0
-            ],
-            "neutral": [
-                1.0,
-                1.0,
-                0.0,
-                1.0
-            ],
-            "attacking_ship": [
-                0.0,
-                0.0,
-                1.0,
-                1.0
-            ],
-            "locking_ship": [
-                1.0,
-                0.0,
-                1.0,
-                1.0
-            ],
-            "targetting_ship": [
-                0.68,
-                0.9,
-                1.0,
-                1.0
-            ],
-            "target": [
-                1.0,
-                0.0,
-                1.0,
-                1.0
-            ],
-            "planet": [
-                1.0,
-                1.0,
-                0.6,
-                1.0
-            ],
-            "docking_box": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-            ],
-            "black_and_white": [
-                0.8,
-                0.8,
-                0.8,
-                1.0
-            ],
-            "planet_ambient": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "planet_mat_ambient": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-            ],
-            "planet_mat_diffuse": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-            ],
-            "planet_mat_specular": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "planet_mat_emmissive": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "space_background": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ]
-        }
     }
 }
