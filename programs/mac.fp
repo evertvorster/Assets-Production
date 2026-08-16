@@ -1,3 +1,4 @@
+#version 130
 uniform sampler2D diffuseMap;
 uniform sampler2D envMap;
 uniform sampler2D specMap;

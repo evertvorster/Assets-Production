@@ -1,3 +1,4 @@
+#version 130
 uniform int light_enabled[gl_MaxLights];
 uniform int max_light_enabled;
 //samplers

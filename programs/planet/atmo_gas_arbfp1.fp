@@ -1,3 +1,4 @@
+#version 130
 #include "../fplod.h"
 
 #include "gas_giants_params.h"

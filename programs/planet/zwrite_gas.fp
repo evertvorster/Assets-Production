@@ -1,3 +1,4 @@
+#version 130
 #include "gas_giants_params.h"
 #include "../config.h"
 #include "../stdlib.h"
